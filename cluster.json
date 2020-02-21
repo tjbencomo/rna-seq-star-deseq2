@@ -1,0 +1,21 @@
+{
+    "__default__" :
+    {
+        "account" : "tbencomo",
+        "ncpus" : 1,
+        "partition" : "normal",
+        "mem" : "20G",
+        "time" : "02:00:00",
+        "out" : "/scratch/users/tbencomo/logs/slurm-{jobid}.out"
+    },
+    "align" :
+    {
+        "time" : "04:00:00",
+        "mem" : "40G"
+    },
+    "rseqc_readdup" :
+    {
+        "time" : "03:00:00",
+        "mem" : "30G"
+    }
+}
